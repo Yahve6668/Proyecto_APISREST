@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilos2.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <script src="tabla.js"></script>
+</head>
+<body onload="gustos()">
+
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">Repositorio</h2>
+			<nav>
+				<a href="http://localhost:8080/proyectoc/principal.html" class="activo">Inicio</a>
+				<a href="#">Películas</a>
+				<a href="#">Mi lista</a>
+				<a href="http://localhost:8081/Tarea/">Buscar pelicula</a>
+				<a href="http://localhost:8080/ProyectoC/cerrar.php">Cerrar secion</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+        
+		<div class="pelicula-principal">
+            <table cellpadding="0" cellspacing="0" border="0">
+                				<thead>
+                					<tr>
+                					<th>Título</th>
+                					<th>    Poster</th>
+                				</tr> 
+                         </thead> 
+                         <tbody id="tabla">
+           
+                         </tbody>
+            		</table>
+        </div>
+	</main>
+	
+</body>
+</html>

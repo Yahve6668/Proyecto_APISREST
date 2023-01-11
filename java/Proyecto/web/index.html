@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="htpps://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <script src="user.js"> </script>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       
+       <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+       <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    </head>
+    <body>
+         <div class="container-form sign-up">
+             <div class="welcome-back">
+                <div class="message">
+                    <h2 >Bienvenido al repositorio de peliculas</h2>
+                     <p> Si ya tiene una cuenta inicia sesion aqui</p>
+                     <button class="sign-up-btn"> Iniciar Sesion</button>
+                </div>
+             </div>
+
+             <form class="formulario" method="POST" action="http://localhost:8081/Proyecto/webresources/check">
+                <h2 class="create-account">Crear una cuenta</h2>
+                <input type="text" name="name" id="name" placeholder="name">
+                <input type="text" name="userc" id="userc" placeholder="user">
+                <input type="number" name="old" id="old" placeholder="old">
+                <input type="text" name="gender" id="gender" placeholder="gender">
+                <input type="email" name="email" id="email" placeholder="email">
+                <input type="password" name="password" id="password" placeholder="Pasword">
+                <input type="submit" value="check in">
+             </form>
+         </div>
+
+         <div class="container-form sign-in" >
+            <form class="formulario"  method="POST" action="http://localhost:8080/proyectoc/js/inicia.php">
+                <h2 class="create-account">Iniciar Sesion</h2>
+                <input type="text" placeholder="user" name="userc" id="userc">
+                <input type="password" placeholder="Pasword" name="password2" id="password2">
+                <input type="submit" value="login">
+             </form>
+            <div class="welcome-back">
+               <div class="message">
+                   <h2 >Bienvenido al repositorio de peliculas</h2>
+                    <p >Si no tines una cuenta puedes hacerla aqui</p>
+                    <button class="sign-in-btn">Registrarse </button>
+               </div>
+            </div>
+        </div>
+
+         </html>

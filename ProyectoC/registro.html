@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilos2.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<title>Netflix</title>
+	<script src="recupera.js"></script>
+</head>
+<body onload="prese()">
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">Repositorio</h2>
+			<nav>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+        
+		<div class="pelicula-principal">
+			<form id="form" method="post" class="form" >
+				<label>Seleciona los generos de tu interes(seleciona almenos uno) </label><br>
+                <div id="coloca"> 
+				 </div><br><br>
+				 <label>Directores de preferencia </label><br> 
+			      <select id="directores">
+					<option value="0">Selecciona tus directores</option>
+					<select><br><br>
+				 <label>Autores de preferencia </label><br>
+				   	<select id="autores">
+						<option value="0">Selecciona tus autores</option>
+					<select><br><br>
+				 <label>Nombre de 3 peluculas favoritas(separas por comas)</label><br>
+				 <textarea rows="1" cols="50"  id="pelis"></textarea><br><br>
+				 <button type="button" class="button" onclick="check()">Registar</button>
+			</form>
+    	</div>
+	</main>
+	
+</body>
+</html>
