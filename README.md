@@ -3,6 +3,7 @@
 
 # Requisitos
 ```
+Tener la extension Moesif CORS  en su navergador
 Tener instalado apahce en el puerto 8080
 Terner instalado apachetomcat en el puerto 8081
 Asosciar el server de apachetomcat como servidor en apacheNebtbens 
