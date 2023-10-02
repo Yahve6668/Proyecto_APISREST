@@ -3,14 +3,36 @@
 
 # Requisitos
 ```
-Tener la extensión Moesif CORS  en su navegador
-Tener instalado apahce en el puerto 8080
-Tener instalado apachetomcat en el puerto 8081
-Asosciar el server de apachetomcat como servidor en apacheNebtbens 
-Crear la base de datos con el documento .sql desde mysqlworkbechse 
-Descargar los 3 proyectos asi como los jar para el funcionamineto de los mismos y correr los mismos en apacheNetbens  
-Colocar la carpeta de proyectoC en la htdocs del apache
-Nota: para las conexiones a la base de  datos en java asi como en la php es necesario cambiar los datos con los asociados a sus datos y password  de sus base de datos
+Instala la extensión Moesif CORS en tu navegador:
+
+Esta extensión te ayudará a evitar problemas de políticas de mismo origen (Same Origin Policy) al realizar solicitudes desde tu navegador a servidores en diferentes dominios.
+Instala Apache en el puerto 8080:
+
+Asegúrate de tener Apache HTTP Server instalado en tu máquina y configurado para ejecutarse en el puerto 8080. Puedes modificar la configuración en el archivo de configuración httpd.conf.
+Instala Apache Tomcat en el puerto 8081:
+
+Instala y configura Apache Tomcat para que se ejecute en el puerto 8081. Asegúrate de que Tomcat esté funcionando correctamente.
+Asocia el servidor Apache Tomcat en Apache NetBeans:
+
+Abre Apache NetBeans y configura un nuevo servidor. En este caso, selecciona Apache Tomcat como el servidor que deseas usar. Debes proporcionar la ubicación de la instalación de Tomcat y configurar las opciones necesarias.
+Crea la base de datos desde un documento .sql en MySQL Workbench:
+
+Utiliza MySQL Workbench para conectarte a tu servidor MySQL local y ejecutar el script SQL que contiene las instrucciones para crear la base de datos y sus tablas.
+Descarga los proyectos y los archivos JAR necesarios:
+
+Descarga los proyectos web que deseas ejecutar en Apache NetBeans. Asegúrate de que todos los archivos JAR y dependencias necesarios estén disponibles y agregados al proyecto.
+Ejecuta los proyectos en Apache NetBeans:
+
+Importa los proyectos descargados en Apache NetBeans y configura las conexiones a la base de datos en el código, utilizando tus propias credenciales de acceso y configuración de base de datos.
+Coloca la carpeta del proyectoC en la carpeta htdocs de Apache:
+
+Si estás utilizando Apache HTTP Server, coloca la carpeta del proyectoC en la carpeta htdocs para que pueda ser accesible a través de http://localhost:8080/proyectoC.
+Asegúrate de corregir errores ortográficos y configurar las conexiones a la base de datos:
+
+Revise el código de los proyectos web y asegúrate de que las conexiones a la base de datos estén configuradas correctamente con los datos de tu servidor MySQL.
+Ejecuta los proyectos en Apache NetBeans:
+
+Inicia los proyectos en Apache NetBeans y accede a ellos desde tu navegador a través de la dirección correspondiente, según la configuración del servidor y el proyecto.
 ```
 # Lenguajes usados 
 ```
